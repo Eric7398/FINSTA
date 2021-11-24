@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Header from "../components/Header"
 import Feed from "../components/Feed"
+import Model from "../components/Model"
 
 export default function Home() {
   return (
@@ -9,12 +10,9 @@ export default function Home() {
         <title>FINSTA</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* HEADER */}
       <Header />
-      {/* FEED */}
       <Feed />
-      {/* MODEL */}
-
+      <Model />
     </div>
   )
 }
